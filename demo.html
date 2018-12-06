@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="api_telepo.js"></script> 
+</head>
+<body>
+<table>
+    <tr>
+        <td>Domain: </td>
+        <td>
+			<input type="text" id="domain" value="hexacom.be">
+		</td>
+    </tr>
+    <tr>
+        <td>User: </td>
+        <td>
+			<input type="text" id="user" value="bhav">
+		</td>
+    </tr>
+    <tr>
+        <td>Token: </td>
+        <td>
+			<input type="text" id="token" value="">
+		</td>
+    </tr>
+    <tr>
+        <td>
+			<button type="button" onclick="getContactsID()">Get ContactsID</button>
+			<button type="button" onclick="setNoteID('bhav')">Set NoteID</button>
+		</td>
+    </tr>
+</table>
+
+<p id="response"></p>
+
+</body>
+</html>
+
